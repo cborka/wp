@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
-    <title>Тема wordpress cborka19 - minimalism</title>
+    <meta charset="utf-8" />
+    <title>Тема wordpress cborka19 - minimalism. Страница 1</title>
 
     <meta name="description" content="Минималистичная тема для wordpress">
     <meta name="author" content="cborka">
@@ -14,18 +14,13 @@
 
     <?php wp_head() ?>
 
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>" />
 </head>
 <body>
 
 <header> <!-- Header Begin -->
 
     <div><a href="<?php echo home_url() ?>" >Блог "<?php bloginfo("Name") ?>" </a></div>
+    Страница 1
 
-<?php wp_nav_menu( [
-        'theme_location'  => 'top'
-    ] );
-    ?>
-
-<hr>
+    <hr>
 </header> <!-- Header End -->

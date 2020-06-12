@@ -1,6 +1,19 @@
-<?php wp_footer() ?>
-<br><br>
-А это футер
+<footer>
+
+    <hr>
+    <?php wp_nav_menu( [
+        'theme_location'  => 'bottom'
+    ] );
+    ?>
+    <div>Copyright &copy; 2020 cborka</div>
+
+
+</footer> <!-- Footer End-->
+
+<!-- <script src="js/init.js"></script> -->
+
+<?php wp_footer(); ?>
 
 </body>
+
 </html>

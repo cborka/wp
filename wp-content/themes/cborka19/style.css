@@ -1,12 +1,25 @@
 /*   
 Theme Name: Cborka19
-Theme URI: cborka19
+Theme URI: https://github.com/cborka/wp-themes/tree/master/cborka19
 Description: Simplest Theme
-Author: cbw
-Author URI: 
+Author: cborka
+Author URI: https://github.com/cborka
 Template: 
 Version: 1.0.0
+Text Domain: sparrow
+Description:
+Requires PHP: 5.6.40
+License:
+License URI:
+Tags:
 .
-Попытка создать тему с самого начала.
+Простейшая тема
 .
 */
+
+
+body{
+    color: indigo;
+//    background-color: papayawhip;
+}
+

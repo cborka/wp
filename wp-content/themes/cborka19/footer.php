@@ -1,10 +1,6 @@
 <footer>
 
-    <hr>
-    <?php wp_nav_menu( [
-        'theme_location'  => 'bottom'
-    ] );
-    ?>
+    <?php // wp_nav_menu( ['theme_location'  => 'bottom'] ); ?>
     <div>Copyright &copy; 2020 cborka</div>
 
 

@@ -22,5 +22,4 @@
     <div><a href="<?php echo home_url() ?>" >Блог "<?php bloginfo("Name") ?>" </a></div>
     Страница 1
 
-    <hr>
 </header> <!-- Header End -->

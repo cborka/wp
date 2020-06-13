@@ -27,5 +27,4 @@
     ] );
     ?>
 
-<hr>
 </header> <!-- Header End -->

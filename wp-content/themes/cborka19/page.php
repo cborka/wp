@@ -1,11 +1,17 @@
-<?php get_header("page"); ?>
+<div class="grid-container">
 
-    <section id="intro">
-        <div>Страница 1</div>
-    </section>
+    <?php get_header("page"); ?>
 
-<?php get_sidebar(); ?>
-ннн
-<?php dynamic_sidebar("sidebar-1"); ?>
-xxx
-<?php get_footer(); ?>
+    <main>
+        <section id="intro">
+            <div>Страница 1</div>
+        </section>
+    </main>
+
+
+
+    <?php get_sidebar("right"); ?>
+    <?php get_sidebar(); ?>
+    <?php get_footer(); ?>
+
+</div>

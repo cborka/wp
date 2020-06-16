@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Тема wordpress cborka19 - minimalism. Страница 1</title>
 
     <meta name="description" content="Минималистичная тема для wordpress">
     <meta name="author" content="cborka">

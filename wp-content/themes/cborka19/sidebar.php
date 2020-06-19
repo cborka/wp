@@ -1,4 +1,4 @@
-<aside class="left">
+<aside id="left_sidebar" class="left">
 Это боковая панель
  то есть сайдбар
 

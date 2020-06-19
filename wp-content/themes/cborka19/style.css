@@ -30,7 +30,7 @@ Tags:
     grid-template-columns: minmax(150px, min-content) 1fr minmax(150px, min-content);
     grid-template-rows: minmax(15px, min-content) 1fr minmax(15px, min-content);
 
-    grid-gap: 1px;
+    grid-gap: 0px;
     background-color: lightgray;
 }
 
@@ -45,13 +45,11 @@ Tags:
         "r"
         "f";
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: minmax(15px, min-content )minmax(15px, min-content) 1fr minmax(15px, min-content) minmax(15px, min-content);
 
         background-color: lightpink;
     }
 }
-
-
 
 
 header {
@@ -60,11 +58,21 @@ header {
 //    color: darkviolet;
     padding: 5px;
 }
+
 aside.left {
     grid-area: s;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 5px;
 }
+
+/* А ЕСЛИ СМАРТФОН */
+@media screen and (min-width: 100px) and (max-width: 800px) {
+    aside.left {
+//        height: 0px;
+    }
+
+}
+
 aside.right {
     grid-area: r;
     background-color: white;

@@ -10,8 +10,8 @@
 
 
 
-    <?php get_sidebar("right"); ?>
     <?php get_sidebar(); ?>
+    <?php get_sidebar("right"); ?>
     <?php get_footer(); ?>
 
 </div>

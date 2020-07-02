@@ -21,7 +21,7 @@
 <header> <!-- Header Begin -->
 
     <div><a href="<?php echo home_url() ?>" >Блог "<?php bloginfo("Name") ?>" </a></div>
-    <button onclick="show_hide_sidebar()">E</button>
+    <button visible="false" onclick="show_hide_sidebar()">E</button>
 
 <?php wp_nav_menu( [
         'theme_location'  => 'top'

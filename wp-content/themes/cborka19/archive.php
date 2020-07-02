@@ -4,7 +4,7 @@
 
     <main>
         <section id="intro">
-            <div>Архив</div>
+            <div>Архив записей</div>
         </section>
 
 
@@ -49,19 +49,19 @@
                     'screen_reader_text' => __( ' ' )
                 ));
 
-        else :
-            echo 'else';
+        else : //if (have_posts())
+            echo 'Здесь нет записей.';
             get_template_part('template-parts/content', 'none');
 
-        endif;
+        endif; //if (have_posts())
         ?>
 
 
     </main>
 
 
-    <?php get_sidebar("right"); ?>
     <?php get_sidebar(); ?>
+    <?php get_sidebar("right"); ?>
     <?php get_footer(); ?>
 
 </div>

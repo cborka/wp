@@ -18,7 +18,7 @@ Tags:
 */
 
 /*
-**      РАЗМЕТКА СТРАНИЦЫ большой экран
+**      РАЗМЕТКА СТРАНИЦЫ
 */
 .grid-container {
     display: grid;
@@ -37,9 +37,7 @@ Tags:
     background-color: lightgray;
 }
 
-/*
-**      РАЗМЕТКА СТРАНИЦЫ смартфон
-*/
+/* А ЕСЛИ СМАРТФОН */
 @media screen and (min-width: 100px) and (max-width: 800px)
 {
     .grid-container {
@@ -56,9 +54,7 @@ Tags:
     }
 }
 
-/*
-**      ШАПКА
-*/
+
 header {
     grid-area: h;
     background-color: white;
@@ -66,44 +62,31 @@ header {
     padding: 5px;
 }
 
-/*
-**      ЛЕВАЯ КОЛОНКА
-*/
 aside.left {
     grid-area: s;
     background-color: whitesmoke;
     padding: 5px;
 }
 
-/* ЛЕВАЯ КОЛОНКА СМАРТФОН */
+/* А ЕСЛИ СМАРТФОН */
 @media screen and (min-width: 100px) and (max-width: 800px) {
     aside.left {
 //        height: 0px;
     }
+
 }
 
-/*
-**      ПРАВАЯ КОЛОНКА
-*/
 aside.right {
     grid-area: r;
     background-color: mistyrose ;
     padding: 5px;
 }
-
-/*
-**      КОНТЕНТ (СОДЕРЖИМОЕ)
-*/
 main {
     grid-area: c;
     background-color: white;
     padding: 5px;
 //    margin: 5%;
 }
-
-/*
-**      ФУТЕР (ПОДВАЛ)
-*/
 footer {
     grid-area: f;
     background-color: dimgray;
